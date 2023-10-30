@@ -1,0 +1,42 @@
+.TodoList-CSS {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  
+.inlines {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;; 
+    border : 0.5px solid #000000; 
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    }
+  
+p {
+  margin: 0;
+}
+  
+.button {
+    background-color: rgb(255, 255, 255);
+    color: #ff0000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.5px solid #000000;
+    }
+
+.button:hover{
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 0.5px solid #000000;
+}
+  
+
+  
